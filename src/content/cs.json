@@ -1,0 +1,138 @@
+{
+    "nav": {
+        "about": "O mně",
+        "services": "Služby",
+        "experience": "Zkušenosti",
+        "contact": "Kontakt",
+        "booking": "Rezervace"
+    },
+    "header": {
+        "name": "Mgr. Klára Milfaitová"
+    },
+    "hero": {
+        "kicker": "Psycholožka • Individuální terapie • Terapie dospívajících",
+        "name": "Mgr. Klára Milfaitová",
+        "lead1": "Bezpečný prostor pro práci s úzkostí, stresem a depresí.",
+        "lead2": "Osobně v Praze i online.",
+        "ctaPrimary": "Rezervovat termín",
+        "ctaSecondary": "Napsat zprávu",
+        "moreLabel": "více",
+        "whereAddress": "Revoluční, 110 00 Praha 1-Staré Město, Česko",
+        "card1": {
+            "title": "Pomáhám s",
+            "text": "Úzkost • Stres • Deprese"
+        },
+        "card2": {
+            "title": "Kde",
+            "text": "Osobně i online"
+        }
+    },
+    "about": {
+        "title": "O mně",
+        "body": "Jsem psycholožka a frekventantka výcviku v psychoanalytické psychoterapii.  V rámci své práce pomáhám klientům s náročnými životními situacemi, opakujícími se vzorci chování, ale i každodenními starostmi. Nejsem expertem Vašeho příběhu, ale mohu být průvodcem, který Vám pomůže najít směr. Nabízím primárně dlouhodobou terapii, která umožňuje hlubší sebepoznání, rozvoj a náhled na vlastní prožívání. Rovněž poskytuji krátkodobější poradenství určené spíše pro orientaci v aktuální situaci a nalezení řešení. Být slyšen může častokrát pomoci najít odpovědi na otázky, které si nedokážeme zatím sami zodpovědět. "
+    },
+    "services": {
+        "title": "Služby",
+        "paymentLabel": "Platba:",
+        "paymentText": "Hotově nebo převodem",
+        "bullets": {
+            "individual": "Individuální terapie",
+            "teens": "Terapie dospívajících"
+        },
+        "priceCard": {
+            "title": "Ceník",
+            "line": "50 min = 1200 Kč",
+            "expanded": {
+                "col1Title": "Individuální terapie",
+                "col2Title": "Terapie dospívajících",
+                "mode": "Online, Osobně",
+                "duration": "50 min",
+                "price": "1200 Kč"
+            }
+        },
+        "cancelCard": {
+            "title": "Storno podmínky",
+            "preview": "Při zrušení setkání...",
+            "expanded": "Při zrušení setkání méně jak 48 hodin před domluveným termínem účtuji storno poplatek ve výši 50% základní ceny. Při zrušení méně jak 24 hodin před domluveným termínem účtuji 100 % základní ceny."
+        }
+    },
+    "experience": {
+        "title": "Zkušenosti",
+        "cards": {
+            "work": {
+                "title": "Pracovní zkušenosti",
+                "preview": "Terapeutické centrum Nákel",
+                "items": {
+                    "item1": {
+                        "title": "Terapeutické centrum Nákel",
+                        "meta": "Praha 2022 - Doposud"
+                    }
+                }
+            },
+            "education": {
+                "title": "Vzdělání",
+                "preview": "Psychologie, Filozofická fakulta Univerzity Karlovy",
+                "items": {
+                    "item1": {
+                        "title": "Psychologie, Filozofická fakulta Univerzity Karlovy",
+                        "meta": ""
+                    }
+                }
+            },
+            "training": {
+                "title": "Terapeutický výcvik",
+                "preview": "Institut aplikované psychoanalýzy",
+                "tooltip": "Výcvik je psychoterapeutická průprava, která často odráží, jakým způsobem terapeut pracuje.",
+                "items": {
+                    "item1": {
+                        "title": "Institut aplikované psychoanalýzy",
+                        "meta": ""
+                    }
+                }
+            },
+            "courses": {
+                "title": "Terapeutické kurzy",
+                "preview": "Komplexní kurz krizové intervence...",
+                "tooltip": "Krátkodobější školení, která rozšiřují znalosti a dovednosti v dílčích tématech.",
+                "items": {
+                    "item1": {
+                        "title": "Komplexní kurz krizové intervence",
+                        "meta": ""
+                    },
+                    "item2": {
+                        "title": "Kurz psychologa ve zdravotnictví",
+                        "meta": ""
+                    },
+                    "item3": {
+                        "title": "Mindfulness-Based Cognitive Therapy for Life (MBCT-L) Training",
+                        "meta": ""
+                    }
+                }
+            }
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "Napište mi",
+        "form": {
+            "placeholder": "Vaše zpráva…",
+            "send": "Odeslat",
+            "clear": "Vymazat",
+            "sending": "Odesílám…",
+            "sent": "Odesláno"
+        },
+        "cards": {
+            "office": {
+                "title": "Ordinace",
+                "preview": "Foto",
+                "imageSrc": "/ordinace.jpg",
+                "imageAlt": "Ordinace"
+            },
+            "address": {
+                "title": "Adresa",
+                "address": "Revoluční, 110 00 Praha 1-Staré Město, Česko",
+                "mapTitle": "Mapa"
+            }
+        }
+    }
+}

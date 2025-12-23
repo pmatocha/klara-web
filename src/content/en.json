@@ -1,0 +1,138 @@
+{
+    "nav": {
+        "about": "About",
+        "services": "Services",
+        "experience": "Experience",
+        "contact": "Contact",
+        "booking": "Booking"
+    },
+    "header": {
+        "name": "Mgr. Klára Milfaitová"
+    },
+    "hero": {
+        "kicker": "Psychologist • Individual therapy • Adolescent therapy",
+        "name": "Mgr. Klára Milfaitová",
+        "lead1": "A safe space to work with anxiety, stress, and depression.",
+        "lead2": "In person in Prague and online.",
+        "ctaPrimary": "Book an appointment",
+        "ctaSecondary": "Send a message",
+        "moreLabel": "more",
+        "whereAddress": "Revoluční, 110 00 Prague 1–Old Town, Czechia",
+        "card1": {
+            "title": "I help with",
+            "text": "Anxiety • Stress • Depression"
+        },
+        "card2": {
+            "title": "Where",
+            "text": "In person & online"
+        }
+    },
+    "about": {
+        "title": "About",
+        "body": "I am a psychologist and a trainee in psychoanalytic psychotherapy. In my work, I support clients facing challenging life situations, recurring patterns of behaviour, as well as everyday worries. I am not the expert of your story, but I can be a guide who helps you find direction. I primarily offer long-term therapy, which enables deeper self-understanding, personal growth, and insight into your inner experience. I also provide shorter-term counselling intended mainly for orientation in a current situation and finding solutions. Being heard can often help uncover answers to questions we are not yet able to answer on our own."
+    },
+    "services": {
+        "title": "Services",
+        "paymentLabel": "Payment:",
+        "paymentText": "Cash or bank transfer",
+        "bullets": {
+            "individual": "Individual therapy",
+            "teens": "Adolescent therapy"
+        },
+        "priceCard": {
+            "title": "Fees",
+            "line": "50 min = 1,200 CZK",
+            "expanded": {
+                "col1Title": "Individual therapy",
+                "col2Title": "Adolescent therapy",
+                "mode": "Online, In person",
+                "duration": "50 min",
+                "price": "1,200 CZK"
+            }
+        },
+        "cancelCard": {
+            "title": "Cancellation policy",
+            "preview": "If you cancel an appointment…",
+            "expanded": "If an appointment is cancelled less than 48 hours before the scheduled time, a cancellation fee of 50% of the base price applies. If cancelled less than 24 hours before the scheduled time, 100% of the base price will be charged."
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "cards": {
+            "work": {
+                "title": "Work experience",
+                "preview": "Terapeutické centrum Nákel",
+                "items": {
+                    "item1": {
+                        "title": "Terapeutické centrum Nákel",
+                        "meta": "Prague 2022 – Present"
+                    }
+                }
+            },
+            "education": {
+                "title": "Education",
+                "preview": "Psychology, Faculty of Arts, Charles University",
+                "items": {
+                    "item1": {
+                        "title": "Psychology, Faculty of Arts, Charles University",
+                        "meta": ""
+                    }
+                }
+            },
+            "training": {
+                "title": "Psychotherapy training",
+                "preview": "Institute of Applied Psychoanalysis",
+                "tooltip": "Training is formal psychotherapeutic preparation and often reflects the therapist’s approach to practice.",
+                "items": {
+                    "item1": {
+                        "title": "Institute of Applied Psychoanalysis",
+                        "meta": ""
+                    }
+                }
+            },
+            "courses": {
+                "title": "Professional courses",
+                "preview": "Comprehensive crisis intervention course…",
+                "tooltip": "Shorter trainings that expand knowledge and skills in specific topics.",
+                "items": {
+                    "item1": {
+                        "title": "Comprehensive crisis intervention course",
+                        "meta": ""
+                    },
+                    "item2": {
+                        "title": "Clinical psychologist in healthcare course",
+                        "meta": ""
+                    },
+                    "item3": {
+                        "title": "Mindfulness-Based Cognitive Therapy for Life (MBCT-L) Training",
+                        "meta": ""
+                    }
+                }
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Write to me",
+        "form": {
+            "placeholder": "Your message…",
+            "send": "Send",
+            "clear": "Clear",
+            "sending": "Sending…",
+            "sent": "Sent"
+        },
+        "cards": {
+            "office": {
+                "title": "Office",
+                "preview": "Photo",
+                "imageSrc": "/ordinace.jpg",
+                "imageAlt": "Office"
+            },
+            "address": {
+                "title": "Address",
+                "address": "Revoluční, 110 00 Prague 1–Old Town, Czechia",
+                "mapTitle": "Map"
+            }
+        }
+    }
+}
