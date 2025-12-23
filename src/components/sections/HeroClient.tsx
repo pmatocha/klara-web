@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import type { Lang } from "@/lib/i18n";
+import type { Lang } from "../../lib/i18n";
 import { HeroRightPanel } from "./HeroRightPanel";
 import { HeroLeftPanel } from "./HeroLeftPanel";
-import type { HeroCopy } from "@/lib/types/copy";
+import type { HeroLocalization } from "../../lib/types/HeroLocalization";
 
 
 export function HeroClient({
@@ -13,7 +13,7 @@ export function HeroClient({
   onIntroDone,
 }: {
   lang: Lang;
-  copy: HeroCopy;
+  copy: HeroLocalization;
   onIntroDone?: () => void;
 }) {
   const [rightDone, setRightDone] = useState(false);

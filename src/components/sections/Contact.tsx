@@ -99,12 +99,12 @@ export function Contact({ copy }: { copy: ContactLocalization }) {
     <AnimatePresence>
       {status === "sending" && (
         <motion.span
-          key="sending"
-          className="absolute inset-0 flex items-center justify-center gap-2"
-          initial={reduce ? false : { opacity: 0 }}
-          animate={reduce ? false : { opacity: 1 }}
-          exit={reduce ? false : { opacity: 0 }}
-          transition={{ duration: 0.2 }}
+        key="sending"
+        className="absolute inset-0 flex items-center justify-center gap-2"
+        initial={reduce ? undefined : { opacity: 0 }}
+        animate={reduce ? undefined : { opacity: 1 }}
+        exit={reduce ? undefined : { opacity: 0 }}
+        transition={{ duration: 0.2 }}
         >
           <span className="h-4 w-4 animate-spin rounded-full border-2 border-white/60 border-t-white" />
           {copy.form.sending}
@@ -113,12 +113,12 @@ export function Contact({ copy }: { copy: ContactLocalization }) {
 
       {status === "sent" && (
         <motion.span
-          key="sent"
-          className="absolute inset-0 flex items-center justify-center"
-          initial={reduce ? false : { opacity: 0, y: 4 }}
-          animate={reduce ? false : { opacity: 1, y: 0 }}
-          exit={reduce ? false : { opacity: 0, y: 4 }}
-          transition={{ duration: 0.2 }}
+        key="sent"
+        className="absolute inset-0 flex items-center justify-center"
+        initial={reduce ? undefined : { opacity: 0, y: 4 }}
+        animate={reduce ? undefined : { opacity: 1, y: 0 }}
+        exit={reduce ? undefined : { opacity: 0, y: 4 }}
+        transition={{ duration: 0.2 }}
         >
           {copy.form.sent}
         </motion.span>

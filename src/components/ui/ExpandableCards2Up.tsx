@@ -131,9 +131,9 @@ export function ExpandableCards2Up({
             key={active}
             className={["pointer-events-none absolute left-0 right-0", overlayPos].join(" ")}
             style={{ zIndex: overlayZIndex }} // ✅ tady
-            initial={reduce ? false : overlayVariants.initial}
-            animate={reduce ? false : overlayVariants.animate}
-            exit={reduce ? false : overlayVariants.exit}
+            initial={reduce ? undefined  : overlayVariants.initial}
+            animate={reduce ? undefined  : overlayVariants.animate}
+            exit={reduce ? undefined  : overlayVariants.exit}
             transition={{ duration: 0.22, ease: "easeOut" }}
           >
             <div className={["flex", active === "left" ? "justify-start" : "justify-end"].join(" ")}>
@@ -148,9 +148,9 @@ export function ExpandableCards2Up({
                   height: cardExpandedHeight,
                   transformOrigin: origin(active),
                 }}
-                initial={reduce ? false : panelVariants.initial}
-                animate={reduce ? false : panelVariants.animate}
-                exit={reduce ? false : panelVariants.exit}
+                initial={reduce ? undefined  : panelVariants.initial}
+                animate={reduce ? undefined  : panelVariants.animate}
+                exit={reduce ? undefined  : panelVariants.exit}
                 transition={{ duration: 0.22, ease: "easeOut" }}
                 onMouseLeave={() => setActive(null)}
               >

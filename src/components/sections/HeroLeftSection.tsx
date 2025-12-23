@@ -2,7 +2,7 @@
 
 import { HeroLeftPanel } from "./HeroLeftPanel";
 import { HeroExpandableCards } from "./HeroExpandableCards";
-import type { HeroLocalization } from "@/lib/types/HeroLocalization";
+import type { HeroLocalization } from "../../lib/types/HeroLocalization";
 
 
 export function HeroLeftSection({

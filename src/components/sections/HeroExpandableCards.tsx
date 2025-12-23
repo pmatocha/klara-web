@@ -115,9 +115,9 @@ export function HeroExpandableCards({
           <motion.div
             key={active}
             className="pointer-events-none absolute left-0 right-0 bottom-0 z-30"
-            initial={reduce ? false : { opacity: 0, y: 10, scale: 0.985 }}
-            animate={reduce ? false : { opacity: 1, y: 0, scale: 1 }}
-            exit={reduce ? false : { opacity: 0, y: 8, scale: 0.99 }}
+            initial={reduce ? undefined  : { opacity: 0, y: 10, scale: 0.985 }}
+            animate={reduce ? undefined  : { opacity: 1, y: 0, scale: 1 }}
+            exit={reduce ? undefined  : { opacity: 0, y: 8, scale: 0.99 }}
             transition={{ duration: 0.22, ease: "easeOut" }}
           >
             <div className={["flex", active === "left" ? "justify-start" : "justify-end"].join(" ")}>
@@ -132,9 +132,9 @@ export function HeroExpandableCards({
                   transformOrigin: active === "left" ? "left bottom" : "right bottom",
                   height: cardExpandedHeight, // ✅ používáme parametr
                 }}
-                initial={reduce ? false : { scaleX: 0.92 }}
-                animate={reduce ? false : { scaleX: 1 }}
-                exit={reduce ? false : { scaleX: 0.96 }}
+                initial={reduce ? undefined  : { scaleX: 0.92 }}
+                animate={reduce ? undefined  : { scaleX: 1 }}
+                exit={reduce ? undefined  : { scaleX: 0.96 }}
                 transition={{ duration: 0.22, ease: "easeOut" }}
                 onMouseLeave={() => setActive(null)}
               >

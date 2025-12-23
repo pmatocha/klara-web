@@ -1,15 +1,15 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, Variants } from "framer-motion";
 import { ButtonLink } from "../ui/Button";
 import { useEffect, useRef } from "react";
 import { HeroExpandableCards } from "./HeroExpandableCards";  
-import type { HeroCopy } from "@/lib/types/copy";
+import type { HeroLocalization } from "../../lib/types/HeroLocalization";
 
 
 type Props = {
   start: boolean;
-  copy: HeroCopy;
+  copy: HeroLocalization;
   onDone?: () => void;
 };
 
@@ -20,9 +20,9 @@ const container = {
   },
 };
 
-const row = {
+const row: Variants = {
   hidden: { opacity: 0, y: 10 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
 };
 
 export function HeroLeftPanel({ start, copy, onDone }: Props) {

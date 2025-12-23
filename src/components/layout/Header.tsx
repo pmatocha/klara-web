@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, Variants } from "framer-motion";
 
 type NavItem = { href: string; label: string };
 
@@ -144,29 +144,29 @@ export function Header({
   }, [nav]);
 
   // animace
-  const navVariants = useMemo(
-    () => ({
-      hidden: {},
-      show: { transition: { staggerChildren: 0.06, delayChildren: 0.05 } },
-    }),
-    []
-  );
+    const itemVariants: Variants = {
+    hidden: { opacity: 0, x: -10 },
+    show: {
+        opacity: 1,
+        x: 0,
+        transition: { duration: 0.35, ease: [0.22, 1, 0.36, 1] }, // ✅ místo "easeOut"
+    },
+    };
 
-  const itemVariants = useMemo(
-    () => ({
-      hidden: { opacity: 0, x: -10 },
-      show: { opacity: 1, x: 0, transition: { duration: 0.35, ease: "easeOut" } },
-    }),
-    []
-  );
+    const langVariants: Variants = {
+    hidden: { opacity: 0, x: -8 },
+    show: {
+        opacity: 1,
+        x: 0,
+        transition: { duration: 0.35, ease: [0.22, 1, 0.36, 1] }, // ✅
+    },
+    };
 
-  const langVariants = useMemo(
-    () => ({
-      hidden: { opacity: 0, x: -8 },
-      show: { opacity: 1, x: 0, transition: { duration: 0.35, ease: "easeOut" } },
-    }),
-    []
-  );
+    const navVariants: Variants = {
+    hidden: {},
+    show: { transition: { staggerChildren: 0.06, delayChildren: 0.05 } },
+    };
+
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
